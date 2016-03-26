@@ -1,0 +1,738 @@
+﻿[2015.12.01-04.14.18:585][  0]Log file open, 11/30/15 20:14:18
+[2015.12.01-04.14.18:585][  0]LogInit:Display: Running engine for game: RedCreek
+[2015.12.01-04.14.18:585][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.01-04.14.18:585][  0]LogInit:Display: RandInit(1657618776) SRandInit(1657618777).
+[2015.12.01-04.14.18:585][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2015.12.01-04.14.18:585][  0]LogStats: Stats thread started at 0.083882
+[2015.12.01-04.14.18:585][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.01-04.14.18:585][  0]LogInit: API Version: 2758231
+[2015.12.01-04.14.18:585][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.01-04.14.18:585][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.01-04.14.18:585][  0]LogInit: Build Configuration: Development
+[2015.12.01-04.14.18:585][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.01-04.14.18:585][  0]LogInit: Command line:  
+[2015.12.01-04.14.18:585][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.01-04.14.18:585][  0]LogInit: Rocket: 1
+[2015.12.01-04.14.18:591][  0]LogInit: Using libcurl 7.41.0
+[2015.12.01-04.14.18:591][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.01-04.14.18:591][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.01-04.14.18:591][  0]LogInit:  - other features:
+[2015.12.01-04.14.18:591][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.01-04.14.18:591][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.01-04.14.18:591][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.01-04.14.18:591][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.01-04.14.18:591][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.01-04.14.18:591][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.01-04.14.18:591][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.01-04.14.18:591][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.01-04.14.18:591][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.01-04.14.18:591][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.01-04.14.18:597][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.01-04.14.18:604][  0]LogInit: Object subsystem initialized
+[2015.12.01-04.14.18:605][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.01-04.14.18:605][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.01-04.14.18:613][  0]LogInit: Computer: DESKTOP
+[2015.12.01-04.14.18:613][  0]LogInit: User: 3
+[2015.12.01-04.14.18:613][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.12.01-04.14.18:613][  0]LogInit: High frequency timer resolution =3.322371 MHz
+[2015.12.01-04.14.18:613][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2015.12.01-04.14.18:614][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.01-04.14.18:614][  0]LogMemory: Process Physical Memory: 54.70 MB used, 54.70 MB peak
+[2015.12.01-04.14.18:614][  0]LogMemory: Process Virtual Memory: 58.40 MB used, 58.40 MB peak
+[2015.12.01-04.14.18:614][  0]LogMemory: Physical Memory: 4619.87 MB used, 32708.45 MB total
+[2015.12.01-04.14.18:614][  0]LogMemory: Virtual Memory: 367.35 MB used, 134217728.00 MB total
+[2015.12.01-04.14.18:641][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.01-04.14.18:954][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD FirePro W7000 (FireGL V) (Feature Level 11_0)
+[2015.12.01-04.14.18:954][  0]LogD3D11RHI: Adapter has 4078MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.12.01-04.14.18:955][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.01-04.14.18:955][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.01-04.14.18:955][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.01-04.14.18:958][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.01-04.14.18:958][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.01-04.14.18:975][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.01-04.14.18:987][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Intermediate/Shaders/WorkingDirectory/8688/).
+[2015.12.01-04.14.18:987][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/F4FC36784B0C88A03568B9A5CE052ABA/'.
+[2015.12.01-04.14.18:987][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.01-04.14.19:773][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.01-04.14.19:777][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.01-04.14.19:781][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.01-04.14.19:785][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.01-04.14.19:789][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.01-04.14.19:792][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.01-04.14.19:795][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.01-04.14.19:798][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.01-04.14.19:800][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.01-04.14.19:803][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.01-04.14.19:806][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.01-04.14.19:812][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.01-04.14.19:812][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.01-04.14.19:812][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.01-04.14.19:829][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.01-04.14.19:831][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.01-04.14.19:834][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.01-04.14.19:836][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.01-04.14.19:836][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.01-04.14.19:909][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.01-04.14.19:947][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.01-04.14.19:947][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.01-04.14.19:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.01-04.14.19:947][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.01-04.14.19:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.01-04.14.19:947][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.01-04.14.20:001][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.01-04.14.20:012][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.01-04.14.20:191][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.01-04.14.20:194][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.01-04.14.20:294][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.01-04.14.20:294][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.01-04.14.20:519][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.01-04.14.21:199][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.01-04.14.21:292][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.12.01-04.14.21:435][  0]SourceControl: Info Source control is disabled
+[2015.12.01-04.14.21:740][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.01-04.14.21:740][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.01-04.14.21:793][  0]LogEngine: Initializing Engine...
+[2015.12.01-04.14.21:795][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.01-04.14.21:796][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.01-04.14.21:904][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.01-04.14.21:917][  0]LogInit: XAudio2 using 'Speakers (Jabra SPEAK 510 USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.01-04.14.21:924][  0]LogInit: FAudioDevice initialized.
+[2015.12.01-04.14.21:941][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.01-04.14.21:946][  0]LogInit: Texture streaming: Enabled
+[2015.12.01-04.14.21:951][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.01-04.14.21:951][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.01-04.14.21:951][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e1ce972148f56f7553608e884b891f05|f113f3cbb9d24d94ab3a8fb7882774bd|a1fd1e11-fe35-4c8e-8566-6d4e489db516
+[2015.12.01-04.14.21:952][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.01-04.14.21:977][  0]LogInit: Transaction tracking system initialized
+[2015.12.01-04.14.22:001][  0]BlueprintLog: New page: Editor Load
+[2015.12.01-04.14.22:070][  0]LocalizationService: Info Localization service is disabled
+[2015.12.01-04.14.22:128][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2015.12.01-04.14.22:128][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2015.12.01-04.14.22:128][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2015.12.01-04.14.22:129][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Engine/Tutorial/Mobile/SettingUpAndroidTutorial.SettingUpAndroidTutorial_C'
+[2015.12.01-04.14.22:139][  0]LogConsoleResponse:Display: 
+[2015.12.01-04.14.22:236][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.01-04.14.22:313][  0]LogFileCache: Scanning file cache for directory 'C:/Users/1/Documents/GitHub/RedCreek/RedCreek/Content/' took 0.01s
+[2015.12.01-04.14.22:313][  0]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/ExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.14.22:313][  0]LightingResults: New page: Lighting Build
+[2015.12.01-04.14.22:316][  0]MapCheck: New page: Map Check
+[2015.12.01-04.14.22:316][  0]LightingResults: New page: Lighting Build
+[2015.12.01-04.14.22:324][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E8645FA160
+[2015.12.01-04.14.22:430][  0]LogAIModule: Creating AISystem for world ExampleMap
+[2015.12.01-04.14.22:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.14.22:433][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.14.22:474][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.597ms to complete.
+[2015.12.01-04.14.22:474][  0]LogFileHelpers: Loading map 'ExampleMap' took 0.162
+[2015.12.01-04.14.22:576][  0]LogCollectionManager: Loaded 0 collections in 0.001803 seconds
+[2015.12.01-04.14.22:618][  0]LogFileCache: Scanning file cache for directory 'C:/Users/1/Documents/GitHub/RedCreek/RedCreek/Saved/Collections/' took 0.01s
+[2015.12.01-04.14.22:618][  0]LogFileCache: Scanning file cache for directory 'C:/Users/1/Documents/GitHub/RedCreek/RedCreek/Content/Developers/3/Collections/' took 0.01s
+[2015.12.01-04.14.22:618][  0]LogFileCache: Scanning file cache for directory 'C:/Users/1/Documents/GitHub/RedCreek/RedCreek/Content/Collections/' took 0.01s
+[2015.12.01-04.14.22:618][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.01-04.14.22:626][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1893 classes and 338 folders.
+[2015.12.01-04.14.22:632][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.01-04.14.22:679][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.01-04.14.22:683][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.12.01-04.14.22:724][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.01-04.14.22:727][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.01-04.14.22:749][  0]LogLoad: Full Startup: 4.61 seconds (BP compile: 0.03 seconds)
+[2015.12.01-04.14.22:759][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.01-04.14.22:797][  0]SourceControl: Info On branch master
+[2015.12.01-04.14.22:797][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.12.01-04.14.22:797][  0]SourceControl: Info Changes not staged for commit:
+[2015.12.01-04.14.22:797][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.12.01-04.14.22:797][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.12.01-04.14.22:797][  0]SourceControl: Info 	modified:   RedCreek/Intermediate/CachedAssetRegistry.bin
+[2015.12.01-04.14.22:797][  0]SourceControl: Info 	modified:   RedCreek/Saved/Logs/RedCreek.log
+[2015.12.01-04.14.22:797][  0]SourceControl: Info Untracked files:
+[2015.12.01-04.14.22:797][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.12.01-04.14.22:797][  0]SourceControl: Info 	RedCreek/Saved/Logs/RedCreek-backup-2015.11.30-20.14.18.log
+[2015.12.01-04.14.22:797][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2015.12.01-04.14.22:798][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.01-04.14.22:932][  0]LogRenderer: Reallocating scene render targets to support 1424x556 (Frame:2).
+[2015.12.01-04.14.23:437][  2]LogAssetRegistry: Asset discovery search completed in 2.1557 seconds
+[2015.12.01-04.14.23:437][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.01-04.14.23:437][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2015.12.01-04.14.26:471][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.14.26:471][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.01-04.14.26:471][170]PIE: New page: PIE session: ExampleMap (Nov 30, 2015, 12:14:26 PM)
+[2015.12.01-04.14.26:471][170]LogPlayLevel: Creating play world package: /Game/RedCreek/Levels/UEDPIE_0_ExampleMap
+[2015.12.01-04.14.26:473][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002070s)
+[2015.12.01-04.14.26:474][170]LogAIModule: Creating AISystem for world ExampleMap
+[2015.12.01-04.14.26:474][170]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2015.12.01-04.14.26:474][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RedCreek/Levels/ExampleMap.ExampleMap to /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap (0.002880s)
+[2015.12.01-04.14.26:498][170]LogInit: XAudio2 using 'Speakers (Jabra SPEAK 510 USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.01-04.14.26:503][170]LogInit: FAudioDevice initialized.
+[2015.12.01-04.14.26:552][170]LogWorld: Game class is 'GameMode_Main_C'
+[2015.12.01-04.14.26:555][170]LogWorld: Bringing World /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2015.11.30-20.14.26
+[2015.12.01-04.14.26:555][170]LogActor:Warning: GameSession /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.01-04.14.26:556][170]LogActor:Warning: GameNetworkManager /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.01-04.14.26:556][170]LogWorld: Bringing up level for play took: 0.002955
+[2015.12.01-04.14.26:558][170]PIE: Info Play in editor start time for /Game/RedCreek/Levels/UEDPIE_0_ExampleMap -0.14
+[2015.12.01-04.14.26:558][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.14.27:595][288]LogBlueprintUserMessages: [BP_Interactable_C_1] Left clicked
+[2015.12.01-04.14.28:803][433]LogBlueprintUserMessages: [BP_Interactable_C_1] This is a small dinosaur
+[2015.12.01-04.14.29:702][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.14.29:736][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.14.29:748][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E856A6F2E0
+[2015.12.01-04.15.31:530][142]LogLinker:Warning: Can't find file '/Game/Menus/BluePrints/MainMenu'
+[2015.12.01-04.15.31:530][142]LogLinker:Warning: Can't find file for asset '/Game/Menus/BluePrints/MainMenu' while loading ../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap.
+[2015.12.01-04.15.31:530][142]LoadErrors:Error: Error /Game/RedCreek/Levels/BlankBG : Can't find file for asset. /Game/Menus/BluePrints/MainMenu
+[2015.12.01-04.15.31:531][142]LogLinker:Warning: Can't find file '/Game/Menus/BluePrints/MainMenu'
+[2015.12.01-04.15.31:531][142]LogLinker:Warning: Can't find file for asset '/Game/Menus/BluePrints/MainMenu' while loading ../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap.
+[2015.12.01-04.15.31:531][142]LogLinker:Warning: Can't find file '/Game/Menus/BluePrints/MainMenu'
+[2015.12.01-04.15.31:531][142]LogLinker:Warning: Can't find file for asset '/Game/Menus/BluePrints/MainMenu' while loading NULL.
+[2015.12.01-04.15.31:532][142]LogLinker:Warning: Can't find file '/Game/Menus/BluePrints/MainMenu'
+[2015.12.01-04.15.31:532][142]LogLinker:Warning: Can't find file for asset '/Game/Menus/BluePrints/MainMenu' while loading NULL.
+[2015.12.01-04.15.31:532][142]LogLinker:Warning: Can't find file '/Game/Menus/BluePrints/MainMenu'
+[2015.12.01-04.15.31:532][142]LogLinker:Warning: Can't find file for asset '/Game/Menus/BluePrints/MainMenu' while loading NULL.
+[2015.12.01-04.15.31:533][142]LogLinker:Warning: Can't find file '/Game/Menus/BluePrints/MainMenu'
+[2015.12.01-04.15.31:533][142]LoadErrors: Info Failed to load /Game/Menus/BluePrints/MainMenu.MainMenu_C Referenced by EdGraphPin_23192
+[2015.12.01-04.15.31:533][142]LogLinker:Warning: Can't find file for asset '/Game/Menus/BluePrints/MainMenu' while loading NULL.
+[2015.12.01-04.15.31:533][142]LogLinker:Warning: Can't find file '/Game/Menus/BluePrints/MainMenu'
+[2015.12.01-04.15.31:533][142]LoadErrors: Info Failed to load /Game/Menus/BluePrints/MainMenu.MainMenu_C Referenced by EdGraphPin_23193
+[2015.12.01-04.15.31:533][142]LogLinker:Warning: Can't find file for asset '/Game/Menus/BluePrints/MainMenu' while loading NULL.
+[2015.12.01-04.15.31:537][142]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.15.31:539][142]LogBlueprint:Warning: [compiler BlankBG] Warning [0073.40] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms]
+[2015.12.01-04.15.31:539][142]LogBlueprint:Warning: [compiler BlankBG] Warning [0073.40] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.15.31:539][142]LogBlueprint:Warning: [compiler BlankBG] Warning [0073.40] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.15.31:541][142]LogAIModule: Creating AISystem for world BlankBG
+[2015.12.01-04.15.31:562][142]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.15.31:562][142]LightingResults: New page: Lighting Build
+[2015.12.01-04.15.31:576][142]LoadErrors: New page: Loading map: BlankBG.umap
+[2015.12.01-04.15.31:577][142]MapCheck: New page: Map Check
+[2015.12.01-04.15.31:577][142]LightingResults: New page: Lighting Build
+[2015.12.01-04.15.31:586][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E85438D3A0
+[2015.12.01-04.15.31:611][142]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.15.31:636][142]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.15.31:676][142]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.16ms to complete.
+[2015.12.01-04.15.31:676][142]LogFileHelpers: Loading map 'BlankBG' took 0.115
+[2015.12.01-04.15.34:207][435]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.15.34:247][435]LogBlueprint:Warning: [compiler BlankBG] Warning [0076.11] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 42 ms]
+[2015.12.01-04.15.34:252][435]LogBlueprint:Warning: [compiler BlankBG] Warning [0076.11] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.15.34:252][435]LogBlueprint:Warning: [compiler BlankBG] Warning [0076.11] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.15.34:252][435]LogBlueprint:Warning: [compiler BlankBG] Warning [0076.11] Compile of BlankBG failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.12.01-04.15.34:252][435]LogBlueprint:Warning: [compiler BlankBG] Warning [0076.11] Compile of BlankBG failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.12.01-04.15.34:252][435]LogBlueprint:Warning: [compiler BlankBG] Warning [0076.11] Compile of BlankBG failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.12.01-04.15.34:282][435]LogSavePackage: Save=79.046860ms
+[2015.12.01-04.15.34:282][435]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Saved/BlankBGB55F4AC7461B86C1A77481AAB04F9138.tmp' to '../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap'
+[2015.12.01-04.15.34:283][435]LogSavePackage: Total save time: 92.298541ms
+[2015.12.01-04.15.34:283][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap
+[2015.12.01-04.16.14:349][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG' with GeneratedClass '/Game/RedCreek/Levels/BlankBG.BlankBG_C' with ClassGeneratedBy '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG'
+[2015.12.01-04.16.14:349][577]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.12.01-04.16.14:349][577]LogPlayLevel: [PlayLevel] Compiling BlankBG before play...
+[2015.12.01-04.16.14:353][577]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.16.14:394][577]LogBlueprint:Warning: [compiler BlankBG] Warning [0116.26] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 42 ms]
+[2015.12.01-04.16.14:394][577]LogBlueprint:Warning: [compiler BlankBG] Warning [0116.26] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.16.14:394][577]LogBlueprint:Warning: [compiler BlankBG] Warning [0116.26] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.16.14:394][577]LogBlueprint:Warning: [compiler BlankBG] Warning [0116.26] Compile of BlankBG failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.12.01-04.16.14:394][577]LogBlueprint:Warning: [compiler BlankBG] Warning [0116.26] Compile of BlankBG failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.12.01-04.16.14:394][577]LogBlueprint:Warning: [compiler BlankBG] Warning [0116.26] Compile of BlankBG failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.12.01-04.16.14:396][577]LogPlayLevel: PlayLevel: Blueprint regeneration took 46 ms (1 blueprints)
+[2015.12.01-04.16.14:405][577]BlueprintLog: Info Blueprint BlankBG failed to compile
+[2015.12.01-04.16.19:108][577]PIE: New page: PIE session: BlankBG (Nov 30, 2015, 12:16:19 PM)
+[2015.12.01-04.16.19:108][577]LogPlayLevel: Creating play world package: /Game/RedCreek/Levels/UEDPIE_0_BlankBG
+[2015.12.01-04.16.19:111][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002281s)
+[2015.12.01-04.16.19:111][577]LogAIModule: Creating AISystem for world BlankBG
+[2015.12.01-04.16.19:111][577]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2015.12.01-04.16.19:111][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RedCreek/Levels/BlankBG.BlankBG to /Game/RedCreek/Levels/UEDPIE_0_BlankBG.BlankBG (0.002960s)
+[2015.12.01-04.16.19:129][577]LogInit: XAudio2 using 'Speakers (Jabra SPEAK 510 USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.01-04.16.19:135][577]LogInit: FAudioDevice initialized.
+[2015.12.01-04.16.19:166][577]LogWorld: Game class is 'GameMode_Main_C'
+[2015.12.01-04.16.19:168][577]LogWorld: Bringing World /Game/RedCreek/Levels/UEDPIE_0_BlankBG.BlankBG up for play (max tick rate 0) at 2015.11.30-20.16.19
+[2015.12.01-04.16.19:168][577]LogActor:Warning: GameSession /Game/RedCreek/Levels/UEDPIE_0_BlankBG.BlankBG:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.01-04.16.19:168][577]LogActor:Warning: GameNetworkManager /Game/RedCreek/Levels/UEDPIE_0_BlankBG.BlankBG:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.01-04.16.19:168][577]LogWorld: Bringing up level for play took: 0.000714
+[2015.12.01-04.16.19:170][577]PIE: Info Play in editor start time for /Game/RedCreek/Levels/UEDPIE_0_BlankBG 4.472
+[2015.12.01-04.16.19:170][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG' with GeneratedClass '/Game/RedCreek/Levels/BlankBG.BlankBG_C' with ClassGeneratedBy '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG'
+[2015.12.01-04.16.20:190][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG' with GeneratedClass '/Game/RedCreek/Levels/BlankBG.BlankBG_C' with ClassGeneratedBy '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG'
+[2015.12.01-04.16.20:222][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG' with GeneratedClass '/Game/RedCreek/Levels/BlankBG.BlankBG_C' with ClassGeneratedBy '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG'
+[2015.12.01-04.16.20:260][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E865034C20
+[2015.12.01-04.16.26:464][431]LogAIModule: Creating AISystem for world ExampleMap
+[2015.12.01-04.16.26:483][431]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/ExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.16.26:483][431]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.26:505][431]LoadErrors: New page: Loading map: ExampleMap.umap
+[2015.12.01-04.16.26:505][431]MapCheck: New page: Map Check
+[2015.12.01-04.16.26:505][431]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.26:516][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E856A6CCC0
+[2015.12.01-04.16.26:553][431]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.16.26:578][431]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.16.26:619][431]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.754ms to complete.
+[2015.12.01-04.16.26:619][431]LogFileHelpers: Loading map 'ExampleMap' took 0.139
+[2015.12.01-04.16.27:546][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.16.27:546][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.01-04.16.27:546][539]PIE: New page: PIE session: ExampleMap (Nov 30, 2015, 12:16:27 PM)
+[2015.12.01-04.16.27:546][539]LogPlayLevel: Creating play world package: /Game/RedCreek/Levels/UEDPIE_0_ExampleMap
+[2015.12.01-04.16.27:548][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001993s)
+[2015.12.01-04.16.27:549][539]LogAIModule: Creating AISystem for world ExampleMap
+[2015.12.01-04.16.27:549][539]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2015.12.01-04.16.27:549][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RedCreek/Levels/ExampleMap.ExampleMap to /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap (0.002709s)
+[2015.12.01-04.16.27:568][539]LogInit: XAudio2 using 'Speakers (Jabra SPEAK 510 USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.01-04.16.27:574][539]LogInit: FAudioDevice initialized.
+[2015.12.01-04.16.27:605][539]LogWorld: Game class is 'GameMode_Main_C'
+[2015.12.01-04.16.27:609][539]LogWorld: Bringing World /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2015.11.30-20.16.27
+[2015.12.01-04.16.27:609][539]LogActor:Warning: GameSession /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.01-04.16.27:610][539]LogActor:Warning: GameNetworkManager /Game/RedCreek/Levels/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.01-04.16.27:610][539]LogWorld: Bringing up level for play took: 0.003181
+[2015.12.01-04.16.27:612][539]PIE: Info Play in editor start time for /Game/RedCreek/Levels/UEDPIE_0_ExampleMap 0.914
+[2015.12.01-04.16.27:612][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.16.28:555][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.16.28:584][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/RedCreek/Levels/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/RedCreek/Levels/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2015.12.01-04.16.28:609][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E86541ECA0
+[2015.12.01-04.16.29:365][740]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.16.29:367][740]LogBlueprint:Warning: [compiler BlankBG] Warning [0131.23] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms]
+[2015.12.01-04.16.29:367][740]LogBlueprint:Warning: [compiler BlankBG] Warning [0131.23] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.16.29:367][740]LogBlueprint:Warning: [compiler BlankBG] Warning [0131.23] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.16.29:370][740]LogAIModule: Creating AISystem for world BlankBG
+[2015.12.01-04.16.29:384][740]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.16.29:384][740]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.29:398][740]LoadErrors: New page: Loading map: BlankBG.umap
+[2015.12.01-04.16.29:398][740]MapCheck: New page: Map Check
+[2015.12.01-04.16.29:399][740]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.29:410][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E8566D0A40
+[2015.12.01-04.16.29:448][740]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.16.29:474][740]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.16.29:514][740]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.165ms to complete.
+[2015.12.01-04.16.29:514][740]LogFileHelpers: Loading map 'BlankBG' took 0.131
+[2015.12.01-04.16.30:269][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel' has LevelScriptBlueprint '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG' with GeneratedClass '/Game/RedCreek/Levels/BlankBG.BlankBG_C' with ClassGeneratedBy '/Game/RedCreek/Levels/BlankBG.BlankBG:PersistentLevel.BlankBG'
+[2015.12.01-04.16.30:269][828]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.12.01-04.16.30:269][828]LogPlayLevel: [PlayLevel] Compiling BlankBG before play...
+[2015.12.01-04.16.30:273][828]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.16.30:313][828]LogBlueprint:Warning: [compiler BlankBG] Warning [0132.18] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 42 ms]
+[2015.12.01-04.16.30:313][828]LogBlueprint:Warning: [compiler BlankBG] Warning [0132.18] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.16.30:314][828]LogBlueprint:Warning: [compiler BlankBG] Warning [0132.18] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.16.30:314][828]LogBlueprint:Warning: [compiler BlankBG] Warning [0132.18] Compile of BlankBG failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.12.01-04.16.30:314][828]LogBlueprint:Warning: [compiler BlankBG] Warning [0132.18] Compile of BlankBG failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.12.01-04.16.30:314][828]LogBlueprint:Warning: [compiler BlankBG] Warning [0132.18] Compile of BlankBG failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.12.01-04.16.30:315][828]LogPlayLevel: PlayLevel: Blueprint regeneration took 46 ms (1 blueprints)
+[2015.12.01-04.16.30:327][828]BlueprintLog: Info Blueprint BlankBG failed to compile
+[2015.12.01-04.16.36:465][410]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.16.36:466][410]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.36:480][410]LoadErrors: New page: Loading map: BlankBG.umap
+[2015.12.01-04.16.36:480][410]MapCheck: New page: Map Check
+[2015.12.01-04.16.36:480][410]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.36:514][410]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E865036D40
+[2015.12.01-04.16.36:514][410]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.16.36:515][410]LogBlueprint:Warning: [compiler BlankBG] Warning [0138.38] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 4 ms]
+[2015.12.01-04.16.36:516][410]LogBlueprint:Warning: [compiler BlankBG] Warning [0138.38] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.16.36:516][410]LogBlueprint:Warning: [compiler BlankBG] Warning [0138.38] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.16.36:519][410]LogAIModule: Creating AISystem for world BlankBG
+[2015.12.01-04.16.36:564][410]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.16.36:591][410]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.16.36:632][410]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.374ms to complete.
+[2015.12.01-04.16.36:632][410]LogFileHelpers: Loading map 'BlankBG' took 0.167
+[2015.12.01-04.16.38:934][683]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.16.38:934][683]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.38:948][683]LoadErrors: New page: Loading map: BlankBG.umap
+[2015.12.01-04.16.38:949][683]MapCheck: New page: Map Check
+[2015.12.01-04.16.38:949][683]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.38:966][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E86C8C9DA0
+[2015.12.01-04.16.38:966][683]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.16.38:967][683]LogBlueprint:Warning: [compiler BlankBG] Warning [0140.83] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms]
+[2015.12.01-04.16.38:967][683]LogBlueprint:Warning: [compiler BlankBG] Warning [0140.83] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.16.38:968][683]LogBlueprint:Warning: [compiler BlankBG] Warning [0140.83] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.16.38:970][683]LogAIModule: Creating AISystem for world BlankBG
+[2015.12.01-04.16.39:023][683]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.16.39:052][683]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.16.39:093][683]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.579ms to complete.
+[2015.12.01-04.16.39:094][683]LogFileHelpers: Loading map 'BlankBG' took 0.161
+[2015.12.01-04.16.44:692][352]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/BlankBG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.16.44:693][352]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.44:707][352]LoadErrors: New page: Loading map: BlankBG.umap
+[2015.12.01-04.16.44:707][352]MapCheck: New page: Map Check
+[2015.12.01-04.16.44:707][352]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.44:723][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E856C61E40
+[2015.12.01-04.16.44:723][352]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.16.44:725][352]LogBlueprint:Warning: [compiler BlankBG] Warning [0146.59] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms]
+[2015.12.01-04.16.44:725][352]LogBlueprint:Warning: [compiler BlankBG] Warning [0146.59] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.16.44:725][352]LogBlueprint:Warning: [compiler BlankBG] Warning [0146.59] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.16.44:728][352]LogAIModule: Creating AISystem for world BlankBG
+[2015.12.01-04.16.44:791][352]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.16.44:821][352]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.16.44:862][352]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.379ms to complete.
+[2015.12.01-04.16.44:863][352]LogFileHelpers: Loading map 'BlankBG' took 0.171
+[2015.12.01-04.16.48:198][628]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.48:207][628]MapCheck: New page: Map Check
+[2015.12.01-04.16.48:207][628]LightingResults: New page: Lighting Build
+[2015.12.01-04.16.48:216][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E856C62700
+[2015.12.01-04.16.48:217][628]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.01-04.16.48:286][628]LoadErrors: New page: New Map
+[2015.12.01-04.16.48:295][628]LogBlueprint:Error: [compiler BlankBG] Error Spawn node  Create Widget  must have a class specified.
+[2015.12.01-04.16.48:296][628]LogBlueprint:Warning: [compiler BlankBG] Warning [0150.16] Compile of BlankBG failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms]
+[2015.12.01-04.16.48:296][628]LogBlueprint:Warning: [compiler BlankBG] Warning [0150.16] Compile of BlankBG failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.12.01-04.16.48:297][628]LogBlueprint:Warning: [compiler BlankBG] Warning [0150.16] Compile of BlankBG failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.12.01-04.16.48:299][628]LogAIModule: Creating AISystem for world BlankBG
+[2015.12.01-04.17.05:073][748]LogAIModule: Creating AISystem for world ExampleMap
+[2015.12.01-04.17.05:086][748]Cmd: MAP LOAD FILE="../../../../../../Users/1/Documents/GitHub/RedCreek/RedCreek/Content/RedCreek/Levels/ExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.01-04.17.05:086][748]LightingResults: New page: Lighting Build
+[2015.12.01-04.17.05:101][748]LoadErrors: New page: Loading map: ExampleMap.umap
+[2015.12.01-04.17.05:101][748]MapCheck: New page: Map Check
+[2015.12.01-04.17.05:101][748]LightingResults: New page: Lighting Build
+[2015.12.01-04.17.05:111][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E85776B240
+[2015.12.01-04.17.05:190][748]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.01-04.17.05:223][748]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.01-04.17.05:265][748]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.729ms to complete.
+[2015.12.01-04.17.05:265][748]LogFileHelpers: Loading map 'ExampleMap' took 0.180
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Blueprints/PhysMesh.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Blueprints/PhysMesh.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Enums/EFloatTypes.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Enums/EFloatTypes.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/BoundingSphereBased_0-1_UVW.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/BoundingSphereBased_0-1_UVW.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/MPC_R2T.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/MPC_R2T.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipBookCounter_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipBookCounter_01.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Imposters/M_ImposterTest_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Imposters/M_ImposterTest_01.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Meshes/ShadowTestMesh.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Meshes/ShadowTestMesh.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position1.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position1.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository
+[2015.12.01-04.17.53:229][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorBlueprintResources/ActorMacros.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorBlueprintResources/ActorMacros.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorKismetResources/StandardMacros.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorKismetResources/StandardMacros.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Anchor.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Anchor.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/TreeArrow_ExpandedRealtimePreview.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/TreeArrow_ExpandedRealtimePreview.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Cascade/CASC_BackgroundCube_MAT.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Cascade/CASC_BackgroundCube_MAT.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/Ai_Spawnpoint.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/Ai_Spawnpoint.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/S_Trigger.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/S_Trigger.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/AI/S_NavLink.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/AI/S_NavLink.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/AudioIcons/S_Ambient_Sound_Moveable.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/AudioIcons/S_Ambient_Sound_Moveable.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/Crowd/T_Crowd_Spline.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/Crowd/T_Crowd_Spline.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorShapes/Textures/T_ShapeDiffuse.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorShapes/Textures/T_ShapeDiffuse.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/MI_BaseFlat.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/MI_BaseFlat.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/ManualUVs/MI_BaseGrid_MUV.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/ManualUVs/MI_BaseGrid_MUV.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseGrid_WUV_SketchUp.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseGrid_WUV_SketchUp.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseGrid_WUV.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseGrid_WUV.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorSounds/GamePreview/EjectFromPlayer.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorSounds/GamePreview/EjectFromPlayer.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineAnimNotifies/AnimNotify_PlayParticleEffect.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineAnimNotifies/AnimNotify_PlayParticleEffect.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineDebugMaterials/LightingModels/M_TextureDefinedSpecularReflecti.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineDebugMaterials/LightingModels/M_TextureDefinedSpecularReflecti.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineFonts/Roboto.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineFonts/Roboto.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineMaterials/RandomMirrorDisc.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineMaterials/RandomMirrorDisc.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineProduction/ReferenceNormalMap.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineProduction/ReferenceNormalMap.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineResources/AICON-Green.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineResources/AICON-Green.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineResources/Cursors/Arrow.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineResources/Cursors/Arrow.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineSky/BP_Sky_Shere.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineSky/BP_Sky_Shere.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineSounds/ReverbSettings/Alley.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineSounds/ReverbSettings/Alley.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineTireTypes/DefaultTireType.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineTireTypes/DefaultTireType.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Materials/M_EV_FalloffSphere_Master_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Materials/M_EV_FalloffSphere_Master_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Mesh/S_EV_FalloffSphere_Mesh_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Mesh/S_EV_FalloffSphere_Mesh_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Materials/M_EV_FogEnvironment_Master_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Materials/M_EV_FogEnvironment_Master_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogEnvironment_01_Mesh.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogEnvironment_01_Mesh.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/T_EV_Fogsheet_FlareColors_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/T_EV_Fogsheet_FlareColors_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Materials/M_EV_FogSheet_1sided_Master_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Materials/M_EV_FogSheet_1sided_Master_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Mesh/MI_Fogsheet_HideClose.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Mesh/MI_Fogsheet_HideClose.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/MI_Shader_BaseTileEx.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/MI_Shader_BaseTileEx.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Instances/M_ES_Phong_Opaque_INST_01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Instances/M_ES_Phong_Opaque_INST_01.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Textures/Bokeh.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Textures/Bokeh.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Combiners/DistanceField_Intersection.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Combiners/DistanceField_Intersection.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Shapes/DistanceField_Capsule.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Shapes/DistanceField_Capsule.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/AlphaBlend/World_Aligned_Blend.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/AlphaBlend/World_Aligned_Blend.uasset' is outside repository
+[2015.12.01-04.17.53:230][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/DrawLine-2D.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/DrawLine-2D.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Debug/FunctionGraphSetup.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Debug/FunctionGraphSetup.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Lighting/PixelDepthOffset_Foliage.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Lighting/PixelDepthOffset_Foliage.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Reflections/ReflectionVectorSoft.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Reflections/ReflectionVectorSoft.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/CalcLightsourceAngle.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/CalcLightsourceAngle.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/BakedDisplacement.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/BakedDisplacement.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Vectors/MF_RotateVector_90.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Vectors/MF_RotateVector_90.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/ConstantScalebyDistance.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/ConstantScalebyDistance.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacityInstance.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacityInstance.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/MacroUVs/MacroUVs.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/MacroUVs/MacroUVs.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MeshSequenceFlipbook_Script.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MeshSequenceFlipbook_Script.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Normals/RotateNormalWhileMasking.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Normals/RotateNormalWhileMasking.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/NotInUse/WorldAlignedNormals_HighQuality_optimizationAttempt.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/NotInUse/WorldAlignedNormals_HighQuality_optimizationAttempt.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter/PivotPainter_HierarchyData.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter/PivotPainter_HierarchyData.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Append4.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Append4.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/AdjustNormalsToCompensateForRotateAboutAxisOffset.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/AdjustNormalsToCompensateForRotateAboutAxisOffset.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_ColorBurn.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_ColorBurn.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Particles/Distance_Blend.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Particles/Distance_Blend.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/CameraWorldBlend.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/CameraWorldBlend.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/GetPostProcessFunctions/GetAmbientCubemapIntensity.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/GetPostProcessFunctions/GetAmbientCubemapIntensity.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AddWorldPositionOffset.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AddWorldPositionOffset.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Maps/Entry.umap: 'C:/Program Files/Epic Games/4.10/Engine/Content/Maps/Entry.umap' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Maps/Templates/Template_Default.umap: 'C:/Program Files/Epic Games/4.10/Engine/Content/Maps/Templates/Template_Default.umap' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Maps/Templates/Thumbnails/Default.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Maps/Templates/Thumbnails/Default.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/Bokeh_5Sides.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/Bokeh_5Sides.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/lut/LUT_Afternoon.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/lut/LUT_Afternoon.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/Gradients/Gradient_Linear.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/Gradients/Gradient_Linear.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/Textures/T_multiMask.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/Textures/T_multiMask.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MobileResources/T_MobileControls_texture.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MobileResources/T_MobileControls_texture.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/MobileResources/HUD/AnalogHat.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/MobileResources/HUD/AnalogHat.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/TemplateResources/MI_Template_BaseBlue.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/TemplateResources/MI_Template_BaseBlue.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/ContentIntroCurve.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/ContentIntroCurve.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Audio/Audience.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Audio/Audience.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Basics/ContentBrowserOverview.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Basics/ContentBrowserOverview.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Basics/TutorialAssets/CameraActor_64x.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Basics/TutorialAssets/CameraActor_64x.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintFunctionLibrary_64x.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintFunctionLibrary_64x.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Code/AddingCode.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Code/AddingCode.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Foliage/FoliageWalkThrough.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Foliage/FoliageWalkThrough.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Installation/InstallingVisualStudioTutorial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Installation/InstallingVisualStudioTutorial.uasset' is outside repository
+[2015.12.01-04.17.53:231][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset' is outside repository
+[2015.12.01-04.17.53:232][751]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/: 'C:/Program Files/Epic Games/4.10/Engine/Content/' is outside repository
+[2015.12.01-04.18.43:631][912]LogUProjectInfo: Found projects:
+[2015.12.01-04.18.47:822][412]Cmd: CLOSE_SLATE_MAINFRAME
+[2015.12.01-04.18.48:158][413]Cmd: QUIT_EDITOR
+[2015.12.01-04.18.49:092][413]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.01-04.18.49:165][413]LogExit: Preparing to exit.
+[2015.12.01-04.18.49:406][413]LogExit: Editor shut down
+[2015.12.01-04.18.49:407][413]LogExit: Transaction tracking system shut down
+[2015.12.01-04.18.49:407][413]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E856A6D6C0
+[2015.12.01-04.18.49:408][413]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E8658DBF60
+[2015.12.01-04.18.49:524][413]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E85776A660
+[2015.12.01-04.18.49:524][413]LogExit: Object subsystem successfully closed.
+[2015.12.01-04.18.49:542][413]LogD3D11RHI: Shutdown
+[2015.12.01-04.18.49:542][413]LogD3D11RHI: CleanupD3DDevice
+[2015.12.01-04.18.49:566][413]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.01-04.18.49:580][413]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2015.12.01-04.18.49:580][413]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.01-04.18.49:580][413]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.01-04.18.49:580][413]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.01-04.18.49:580][413]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.01-04.18.49:580][413]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.01-04.18.49:581][413]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.01-04.18.50:233][413]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.01-04.18.50:234][413]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.01-04.18.50:373][413]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.01-04.18.50:384][413]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.01-04.18.50:385][413]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.01-04.18.50:386][413]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.01-04.18.50:460][413]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.01-04.18.50:461][413]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.01-04.18.50:461][413]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.01-04.18.50:562][413]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.01-04.18.50:562][413]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.01-04.18.50:562][413]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.01-04.18.50:564][413]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.01-04.18.50:566][413]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.01-04.18.50:637][413]LogDerivedDataCache: Shutdown
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.01-04.18.50:637][413]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.01-04.18.52:641][413]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.01-04.18.52:642][413]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.01-04.18.52:642][413]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.01-04.18.52:642][413]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.01-04.18.52:642][413]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.01-04.18.52:642][413]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.01-04.18.52:642][413]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.01-04.18.52:642][413]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.01-04.18.52:643][413]LogExit: Exiting.
+[2015.12.01-04.18.52:644][413]Log file closed, 11/30/15 20:18:52
